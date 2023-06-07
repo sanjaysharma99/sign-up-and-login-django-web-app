@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+#main img{
+    width: 100px;
+}
+#sb{
+    width: 100px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#sb:active{
+    font-size: 17px;
+    background-color: rgb(32,32,209);
+}

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account</title>
+        <link href="{% static 'css/account.css' %}" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <h2>Login Successful</h2>
+            <img src="{% static 'images/logo.png' %}" alt="User Icon"/>
+            <h3>{{ username }}</h3>
+            <p>Python and Django Developer</p>
+            <form action="/logout/">
+                <input type="submit" value="Sign Out" id="sb"/>
+            </form>
+        </div>
+    </body>
+</html>
